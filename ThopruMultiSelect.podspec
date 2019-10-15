@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  his CocoaPods library helps you to select multiple cells in a table.
+  This CocoaPods library helps you to select multiple cells in a table.
                    DESC
 
   spec.homepage     = "https://github.com/arunbasilissac/ThopruMultiSelect"
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/arunbasilissac/ThopruMultiSelect.git", :tag => "#{spec.version}" }
+  #spec.source       = { :git => "https://github.com/arunbasilissac/ThopruMultiSelect.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ThopruMultiSelect/**/*.{h,m,swift}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
