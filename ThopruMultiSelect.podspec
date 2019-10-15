@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ThopruMultiSelect"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "A swift library for multi selecting table cells
 ."
 
