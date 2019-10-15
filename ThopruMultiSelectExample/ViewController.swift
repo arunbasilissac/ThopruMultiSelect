@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ThopruMultiSelect
 
 class ViewController: UIViewController {
 

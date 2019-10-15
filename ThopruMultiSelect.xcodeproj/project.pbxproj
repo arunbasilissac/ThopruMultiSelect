@@ -14,6 +14,7 @@
 		F46BBDDF2355A2F1008E5A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46BBDDD2355A2F1008E5A3B /* Main.storyboard */; };
 		F46BBDE12355A2F3008E5A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46BBDE02355A2F3008E5A3B /* Assets.xcassets */; };
 		F46BBDE42355A2F3008E5A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46BBDE22355A2F3008E5A3B /* LaunchScreen.storyboard */; };
+		F46BBDEA2355AED2008E5A3B /* ThopruMultiSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BBDE92355AED2008E5A3B /* ThopruMultiSelect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F46BBDE02355A2F3008E5A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46BBDE32355A2F3008E5A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F46BBDE52355A2F3008E5A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46BBDE92355AED2008E5A3B /* ThopruMultiSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThopruMultiSelect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				F46BBDC92355A16F008E5A3B /* ThopruMultiSelect.h */,
 				F46BBDCA2355A16F008E5A3B /* Info.plist */,
+				F46BBDE92355AED2008E5A3B /* ThopruMultiSelect.swift */,
 			);
 			path = ThopruMultiSelect;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				TargetAttributes = {
 					F46BBDC52355A16F008E5A3B = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					F46BBDD42355A2F1008E5A3B = {
 						CreatedOnToolsVersion = 11.0;
@@ -200,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46BBDEA2355AED2008E5A3B /* ThopruMultiSelect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +363,7 @@
 		F46BBDCF2355A16F008E5A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -373,6 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinmicro..ThopruMultiSelect;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +388,7 @@
 		F46BBDD02355A16F008E5A3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
