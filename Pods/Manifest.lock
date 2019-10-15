@@ -1,0 +1,16 @@
+PODS:
+  - ThopruMultiSelect (0.0.1)
+
+DEPENDENCIES:
+  - ThopruMultiSelect
+
+SPEC REPOS:
+  trunk:
+    - ThopruMultiSelect
+
+SPEC CHECKSUMS:
+  ThopruMultiSelect: bfc6c111d2d1bc389c5bec9c30c46e465834d08d
+
+PODFILE CHECKSUM: 703bdb10bdf71561e2df5017348f87132e195d98
+
+COCOAPODS: 1.8.3

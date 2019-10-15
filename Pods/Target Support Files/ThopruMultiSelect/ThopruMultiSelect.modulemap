@@ -1,0 +1,6 @@
+framework module ThopruMultiSelect {
+  umbrella header "ThopruMultiSelect-umbrella.h"
+
+  export *
+  module * { export * }
+}

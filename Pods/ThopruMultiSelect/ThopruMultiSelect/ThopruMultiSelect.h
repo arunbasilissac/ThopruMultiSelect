@@ -6,7 +6,7 @@
 //  Copyright © 2019 pinmicro. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for ThopruMultiSelect.
 FOUNDATION_EXPORT double ThopruMultiSelectVersionNumber;

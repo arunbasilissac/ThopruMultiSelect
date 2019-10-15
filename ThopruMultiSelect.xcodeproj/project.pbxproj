@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25B2072FB885CCA08CCE5691 /* Pods_ThopruMultiSelectExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A178CF8B01E3C106971E7F3 /* Pods_ThopruMultiSelectExample.framework */; };
+		D1DACC3F7D35A8382251177B /* Pods_ThopruMultiSelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D7B527FDB78F357171EEEF /* Pods_ThopruMultiSelect.framework */; };
+		F42079332355E4850035115F /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420792D2355E4850035115F /* CustomCollectionCell.swift */; };
+		F42079342355E4850035115F /* MultiSelectionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420792E2355E4850035115F /* MultiSelectionTableView.swift */; };
+		F42079352355E4850035115F /* MultiSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420792F2355E4850035115F /* MultiSelectionViewController.swift */; };
+		F42079362355E4850035115F /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42079302355E4850035115F /* CustomTableCell.swift */; };
+		F42079372355E4850035115F /* MultiSelectionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42079312355E4850035115F /* MultiSelectionCollectionView.swift */; };
+		F42079382355E4850035115F /* ContactsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42079322355E4850035115F /* ContactsLibrary.swift */; };
+		F4652B512355EC77003E1A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4652B502355EC77003E1A6D /* Assets.xcassets */; };
 		F46BBDCB2355A16F008E5A3B /* ThopruMultiSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = F46BBDC92355A16F008E5A3B /* ThopruMultiSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F46BBDD82355A2F1008E5A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BBDD72355A2F1008E5A3B /* AppDelegate.swift */; };
 		F46BBDDA2355A2F1008E5A3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46BBDD92355A2F1008E5A3B /* SceneDelegate.swift */; };
@@ -18,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A178CF8B01E3C106971E7F3 /* Pods_ThopruMultiSelectExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThopruMultiSelectExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4221A43BF084C4BB429E9 /* Pods-ThopruMultiSelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThopruMultiSelect.debug.xcconfig"; path = "Target Support Files/Pods-ThopruMultiSelect/Pods-ThopruMultiSelect.debug.xcconfig"; sourceTree = "<group>"; };
+		7966E6C7029B51178AA5BAA2 /* Pods-ThopruMultiSelectExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThopruMultiSelectExample.release.xcconfig"; path = "Target Support Files/Pods-ThopruMultiSelectExample/Pods-ThopruMultiSelectExample.release.xcconfig"; sourceTree = "<group>"; };
+		85D7B527FDB78F357171EEEF /* Pods_ThopruMultiSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThopruMultiSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD738A77226F5445FD56AF71 /* Pods-ThopruMultiSelectExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThopruMultiSelectExample.debug.xcconfig"; path = "Target Support Files/Pods-ThopruMultiSelectExample/Pods-ThopruMultiSelectExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D38C373C276E34371E599222 /* Pods-ThopruMultiSelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThopruMultiSelect.release.xcconfig"; path = "Target Support Files/Pods-ThopruMultiSelect/Pods-ThopruMultiSelect.release.xcconfig"; sourceTree = "<group>"; };
+		F420792D2355E4850035115F /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		F420792E2355E4850035115F /* MultiSelectionTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectionTableView.swift; sourceTree = "<group>"; };
+		F420792F2355E4850035115F /* MultiSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectionViewController.swift; sourceTree = "<group>"; };
+		F42079302355E4850035115F /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		F42079312355E4850035115F /* MultiSelectionCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectionCollectionView.swift; sourceTree = "<group>"; };
+		F42079322355E4850035115F /* ContactsLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsLibrary.swift; sourceTree = "<group>"; };
+		F4652B502355EC77003E1A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46BBDC62355A16F008E5A3B /* ThopruMultiSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThopruMultiSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46BBDC92355A16F008E5A3B /* ThopruMultiSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThopruMultiSelect.h; sourceTree = "<group>"; };
 		F46BBDCA2355A16F008E5A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DACC3F7D35A8382251177B /* Pods_ThopruMultiSelect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +67,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B2072FB885CCA08CCE5691 /* Pods_ThopruMultiSelectExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C573D3E889842A763561B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E4221A43BF084C4BB429E9 /* Pods-ThopruMultiSelect.debug.xcconfig */,
+				D38C373C276E34371E599222 /* Pods-ThopruMultiSelect.release.xcconfig */,
+				BD738A77226F5445FD56AF71 /* Pods-ThopruMultiSelectExample.debug.xcconfig */,
+				7966E6C7029B51178AA5BAA2 /* Pods-ThopruMultiSelectExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88CF8A848093AF0FE82FF364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85D7B527FDB78F357171EEEF /* Pods_ThopruMultiSelect.framework */,
+				3A178CF8B01E3C106971E7F3 /* Pods_ThopruMultiSelectExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F46BBDBC2355A16F008E5A3B = {
 			isa = PBXGroup;
 			children = (
 				F46BBDC82355A16F008E5A3B /* ThopruMultiSelect */,
 				F46BBDD62355A2F1008E5A3B /* ThopruMultiSelectExample */,
 				F46BBDC72355A16F008E5A3B /* Products */,
+				10C573D3E889842A763561B2 /* Pods */,
+				88CF8A848093AF0FE82FF364 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +120,13 @@
 				F46BBDC92355A16F008E5A3B /* ThopruMultiSelect.h */,
 				F46BBDCA2355A16F008E5A3B /* Info.plist */,
 				F46BBDE92355AED2008E5A3B /* ThopruMultiSelect.swift */,
+				F42079322355E4850035115F /* ContactsLibrary.swift */,
+				F420792D2355E4850035115F /* CustomCollectionCell.swift */,
+				F42079302355E4850035115F /* CustomTableCell.swift */,
+				F42079312355E4850035115F /* MultiSelectionCollectionView.swift */,
+				F420792E2355E4850035115F /* MultiSelectionTableView.swift */,
+				F420792F2355E4850035115F /* MultiSelectionViewController.swift */,
+				F4652B502355EC77003E1A6D /* Assets.xcassets */,
 			);
 			path = ThopruMultiSelect;
 			sourceTree = "<group>";
@@ -110,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46BBDCE2355A16F008E5A3B /* Build configuration list for PBXNativeTarget "ThopruMultiSelect" */;
 			buildPhases = (
+				0ADC38FCDF94C569FCC523C5 /* [CP] Check Pods Manifest.lock */,
 				F46BBDC12355A16F008E5A3B /* Headers */,
 				F46BBDC22355A16F008E5A3B /* Sources */,
 				F46BBDC32355A16F008E5A3B /* Frameworks */,
@@ -128,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F46BBDE62355A2F3008E5A3B /* Build configuration list for PBXNativeTarget "ThopruMultiSelectExample" */;
 			buildPhases = (
+				8591324C7EC635193C31FB42 /* [CP] Check Pods Manifest.lock */,
 				F46BBDD12355A2F1008E5A3B /* Sources */,
 				F46BBDD22355A2F1008E5A3B /* Frameworks */,
 				F46BBDD32355A2F1008E5A3B /* Resources */,
+				85EE0C5561BA5872C6B5DAB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4652B512355EC77003E1A6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,11 +256,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADC38FCDF94C569FCC523C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThopruMultiSelect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8591324C7EC635193C31FB42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThopruMultiSelectExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EE0C5561BA5872C6B5DAB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThopruMultiSelectExample/Pods-ThopruMultiSelectExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThopruMultiSelectExample/Pods-ThopruMultiSelectExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThopruMultiSelectExample/Pods-ThopruMultiSelectExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F46BBDC22355A16F008E5A3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42079342355E4850035115F /* MultiSelectionTableView.swift in Sources */,
+				F42079372355E4850035115F /* MultiSelectionCollectionView.swift in Sources */,
+				F42079382355E4850035115F /* ContactsLibrary.swift in Sources */,
+				F42079362355E4850035115F /* CustomTableCell.swift in Sources */,
+				F42079352355E4850035115F /* MultiSelectionViewController.swift in Sources */,
+				F42079332355E4850035115F /* CustomCollectionCell.swift in Sources */,
 				F46BBDEA2355AED2008E5A3B /* ThopruMultiSelect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +489,7 @@
 		};
 		F46BBDCF2355A16F008E5A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E4221A43BF084C4BB429E9 /* Pods-ThopruMultiSelect.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,6 +515,7 @@
 		};
 		F46BBDD02355A16F008E5A3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38C373C276E34371E599222 /* Pods-ThopruMultiSelect.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +540,7 @@
 		};
 		F46BBDE72355A2F3008E5A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD738A77226F5445FD56AF71 /* Pods-ThopruMultiSelectExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,6 +558,7 @@
 		};
 		F46BBDE82355A2F3008E5A3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7966E6C7029B51178AA5BAA2 /* Pods-ThopruMultiSelectExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
